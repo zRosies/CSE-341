@@ -1,7 +1,9 @@
 {
   "name": "cse341-fall23",
   "main": "server.js",
+
   "scripts": {
+    "test": "echo \"Error: no teste speficied\" && exit 1",
     "start": "nodemon server.js",
     "start-prod": "node server.js"
   },
