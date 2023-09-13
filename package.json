@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no teste speficied\" && exit 1",
     "start": "nodemon server.js",
-    "s-deploy": "node server.js"
+    "start-prod": "node server.js"
   },
 
   "keywords": [],
