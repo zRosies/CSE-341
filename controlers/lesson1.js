@@ -1,9 +1,9 @@
 const gustavoRoute = (req,res)=>{
-    res.send("Gustavo Luz")
+    res.send("Gustavo Bispo")
 }
 
 const testRoute = (req,res)=>{
-    res.send("The test works")
+    res.send("Ana Paula Benke")
 }
 
 
