@@ -1,8 +1,9 @@
 
-const gustavoInfo= require("../controlers/lesson1");
+const info= require("../controlers/lesson1");
 const routes = require("express").Router();
 
-routes.get('/',gustavoInfo.testRoute)
-routes.get('/Gustavo',gustavoInfo.gustavoRoute)
+routes.get('/',info.AnaRoute)
+routes.get("/gustavo", info.gustavoRoute)
+
 
 module.exports=routes;
