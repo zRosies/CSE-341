@@ -5,6 +5,9 @@ const gustavoRoute = (req,res)=>{
 const AnaRoute = (req,res)=>{
     res.send("Ana Paula Benke")
 }
+const Student = (req,res)=>{
+    res.send("BYU STUDENT")
+}
 
 
 
@@ -13,5 +16,6 @@ const AnaRoute = (req,res)=>{
 module.exports={
     gustavoRoute,
     AnaRoute,
-    anotherRoute  
+    Student
+    
 }
