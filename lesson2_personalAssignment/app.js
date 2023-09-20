@@ -4,7 +4,7 @@ const MongoClient= require("mongodb").MongoClient;
 const mongodb = require("./db/connection");
 const route = require("./routes/route");
 
-const port = 9090;
+const port = process.env.Port || 9090;
 
 const app = express();
 
@@ -15,7 +15,7 @@ app
         res.setHeader("Access-Control-Allow-Origin", "*");
         next();
     })
-    .use("/test",route);
+    .use("/",route);
 
 mongodb.initDb((err, mongodb)=>{
     if(err){

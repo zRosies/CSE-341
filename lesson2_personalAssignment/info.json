@@ -1,5 +1,5 @@
-[{
-    "contact1":{
+{
+    "contact":{
         "firstName": "Gustavo",
         "lastName":"Bispo",
         "email": "haha@gmail.com",
@@ -23,4 +23,4 @@
 
     }
    
-}]
+}
