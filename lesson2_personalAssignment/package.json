@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start" : "nodemon add.js",
-    "test": "test"
+    "test": "test",
+    "start-prod": "node add.js"
   },
   "repository": {
     "type": "git",
