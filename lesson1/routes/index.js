@@ -1,5 +1,5 @@
 
-const info= require("../controlers/lesson1");
+const info= require("./controlers/lesson1");
 const routes = require("express").Router();
 
 routes.get('/',info.AnaRoute)

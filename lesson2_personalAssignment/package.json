@@ -1,0 +1,19 @@
+{
+  "name": "lesson2_personalassignment",
+  "version": "1.0.0",
+  "description": "contacts",
+  "main": "app.js",
+  "scripts": {
+    "start" : "nodemon add.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "aa"
+  ],
+  "author": "gustavo",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lesson2_src",
+  "version": "1.0.0",
+  "description": "lesson2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "aa"
+  ],
+  "author": "gustavo",
+  "license": "ISC"
+}
