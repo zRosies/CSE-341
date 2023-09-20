@@ -2,11 +2,11 @@
   "name": "lesson2_personalassignment",
   "version": "1.0.0",
   "description": "contacts",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start" : "nodemon app.js",
+    "start" : "nodemon server.js",
     "test": "test",
-    "start-prod": "node app.js"
+    "start-prod": "node server.js"
   },
   "repository": {
     "type": "git",
