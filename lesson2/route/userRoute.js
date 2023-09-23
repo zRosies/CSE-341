@@ -5,6 +5,6 @@ const controler = require("../controlers/userControl")
 
 const router = express.Router();
 
-router.get('/',controler.getData);
+router.get('/professional',controler.getData);
 
 module.exports = router;

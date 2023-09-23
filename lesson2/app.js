@@ -14,7 +14,7 @@ app
         res.setHeader('Access-Control-Allow-Origin', "*");
         next();
     })
-    .use("/professional",route)
+    .use("/",route)
 
 
 
