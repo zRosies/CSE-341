@@ -4,9 +4,11 @@ const { ObjectId } = require('mongodb'); // another object I know nothing about 
 
 const getAllData = async (req, res, next)=>{
 
-    const result= await mongodb.getDb().db().collection("contacts").find().toArray();
-
-    try{
+    const result= await mongodb.getDb().db().collection("blog").find().toArray();
+    // const a= await mongodb.getDb().db().collection("blog")
+    // console.log(a);
+    
+    try{  
         if(result.length === 0){
             res.status(404).json({message : "no data found"})
         }
@@ -26,7 +28,7 @@ const getAllData = async (req, res, next)=>{
 const getSingleData = async (req, res, next)=>{
     try {
         const userId = new ObjectId(req.params.id); // Convert the parameter to ObjectId
-        const result = await mongodb.getDb().db().collection('contacts').find({ _id: userId }).toArray();
+        const result = await mongodb.getDb().db().collection('blog').find({ _id: userId }).toArray();
     
         if (result.length === 0) {
           res.status(404).json({ message: "No data found" });
@@ -41,6 +43,7 @@ const getSingleData = async (req, res, next)=>{
     
    
 }
+
 
 module.exports={
     getAllData,

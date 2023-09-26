@@ -4,6 +4,6 @@ const contacts= require("../controllers/contactsData");
 
 const router= express.Router();
 
-router.use("/contacts", require("./contacts"));
+router.use("/blog", require("./contacts"));
 
 module.exports=router;
